@@ -20,7 +20,8 @@
     background: black;
     opacity: 0.5;
     border-radius: 50%;
-    animation-name:shadowChange;
+    animation-name: shadowOpacity;
+    animation-name: shadowChange;
     animation-duration: 1.2s;
     animation-timing-function: cubic-bezier(0.42, 0, 0.7, 0.5);
     animation-iteration-count: infinite;
