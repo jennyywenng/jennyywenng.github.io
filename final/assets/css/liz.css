@@ -1,0 +1,79 @@
+.all .content{
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+.all .content .needleless {
+    position: relative;
+    top: 0px;
+    left: 0px;
+  }
+.all .content .record {
+    position: absolute;
+    top: 50px;
+    left: 32px;
+    animation: spinning 2s infinite linear;
+  }
+
+.all .content .needle {
+    position: absolute;
+    top: 38px;
+    left: 442px;
+  }
+
+.all .content img {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+  }
+
+@keyframes spinning {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+body {
+  background-color: #151515;
+  font-family: Lato;
+}
+
+a {
+  text-decoration: none;
+}
+
+.all .button {
+  background-color: white;
+  color: black;
+  border-radius: 15px;
+  margin-left: 20px;
+  padding: 15px;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-size: 20px;
+}
+
+.all .button:hover {
+  background-color: #5B5B5B;
+  color: white;
+}
+
+.title{
+  color: white;
+  font-size: 50px;
+  font-family: Sigmar;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.all {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  padding-left: 150px;
+}

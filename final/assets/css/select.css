@@ -1,0 +1,67 @@
+body {
+    background-color: #151515;
+    font-family: Lato;
+}
+
+a {
+    text-decoration: none;
+}
+
+.title{
+    color: white;
+    font-size: 50px;
+    font-family: Sigmar;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.all {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 100px 0 100px;
+}
+
+.all .album div{
+    color: white;
+    font-size: 20px;
+    font-family: Lato;
+    margin-top: 20px;
+    font-weight: 400;
+}
+
+.all .album .name {
+    font-size: 25px;
+    font-family: Lato;
+    font-weight: 700;
+}
+
+.album {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.buttonone .button {
+    background-color: white;
+    color: black;
+    border-radius: 15px;
+    padding: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 20px;
+    margin-top: 70px;
+  }
+  
+  .buttonone .button:hover {
+    background-color: #5B5B5B;
+    color: white;
+  }
+
+.buttonone {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
